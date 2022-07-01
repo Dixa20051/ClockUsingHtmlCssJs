@@ -1,0 +1,48 @@
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 47vw;
+    width: 100vw;
+}
+.image2{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    height: 13vw;
+    width: 17vw;
+}
+
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 0.6%;
+    height: 7%;
+    top: 26.3%;
+    left: 50%;
+    opacity: 0.8;
+}
+#minute{
+    width: 0.4%;
+    height: 8%;
+    top: 24.8%;
+    left: 50.2%;
+    opacity: 0.8;
+}
+#second{
+    width: 0.2%;
+    height: 10%;
+    top: 23.2%;
+    left: 50.3%;
+    opacity: 0.8;
+}
